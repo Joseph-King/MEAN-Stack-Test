@@ -1,22 +1,31 @@
 {
   "name": "mean-stack-test",
   "version": "1.0.0",
-  "description": "Mean Stack Practice",
+  "description": "Tutorial mean stack, authentication app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "node app",
+    "dev": "nodemon app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph-King/MEAN-Stack-Test.git"
+  },
+  "author": "Joseph King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joseph-King/MEAN-Stack-Test/issues"
+  },
+  "homepage": "https://github.com/Joseph-King/MEAN-Stack-Test#readme",
   "dependencies": {
-    "express": "4.17.1",
-    "mongoose": "5.10.3",
-    "brcryptjs": "*",
-    "cors": "2.8.5",
-    "jswebtoken": "*",
-    "body-parser": "1.19.0",
-    "passport": "0.4.1",
-    "passport-jwt": "4.0.0"
-  },
-  "author": "",
-  "license": "ISC"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
 }
